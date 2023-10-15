@@ -28,5 +28,9 @@ To install [PYSCIPOpt](https://github.com/scipopt/PySCIPOpt), please first insta
 
 We include the code implementation for all the four tasks (set covering, combinatorial auctions, CVS and IIS).
 
+### Set covering (synthetic)
 
+1. run ```_1_generate_lp_data_mixed.py``` to generate graphs for set covering. Here the generation follows that in [Exact Combinatorial Optimization with Graph Convolutional Neural Networks](https://github.com/ds4dm/learn2branch). We include our generated 1000 samples in /data/primal_format/m200n400_mixed2.
+
+2. run 
 
