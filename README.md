@@ -5,6 +5,7 @@ The official implementation of DIG-MILP: A Deep Instance Generator for Mixed-Int
 
 To implement the code, the environment below is required:
 ```
+SCIP version 7.0.3
 ecole       0.7.3
 matplotlib          3.7.2
 networkx            3.0
@@ -19,8 +20,13 @@ torchaudio          2.0.1+cu117
 torchvision         0.15.1+cu117
 tqdm                4.65.0
 wandb               0.15.5
-'''
+```
 The corresponding CUDA version is 11.7 and CUDNN version is 8500.
+To install [PYSCIPOpt](https://github.com/scipopt/PySCIPOpt), please first install [SCIP](https://scipopt.org/doc).
+
+## Code implementation
+
+We include the code implementation for all the four tasks (set covering, combinatorial auctions, CVS and IIS).
 
 
 
