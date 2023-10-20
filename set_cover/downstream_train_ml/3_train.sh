@@ -1,0 +1,1 @@
+nohup python -u _3_train.py --train_folder './train_files/050/' --gpu 4 --wandb 1 --ratio 0.5 >./ratio05_050.log 2>&1 </dev/null &

@@ -1,0 +1,1 @@
+nohup python -u _9_train.py --wandb 1 --lr 1e-3 --gpu 5 --alpha 150 --alpha_b 0.0 --epoch 500 --train_folder ./train_files/a150_lr1e3/ >./a150lr1e3.log 2>&1 </dev/null &
