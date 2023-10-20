@@ -56,6 +56,8 @@ enter /downstream_parameter/,
     
 12. run ``paint_similarity.py``` to paint the Pearson correlation figure and get the score.
 
+* We include the SCIP solution time for all the four problems in the time_log folder and the corresponding figure in the paint folder.
+
 #### downstream task - train machine learning models
 enter / downstream_train_ml/,
 13. run ```_1_infer_generate_primal.py``` to get the optimal solution for the generated MILP instances.
