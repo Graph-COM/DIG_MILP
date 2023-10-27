@@ -32,7 +32,7 @@ We include the code implementation for all the four tasks (set covering, combina
 
 #### Data pre-process
 
-1. run ```_1_generate_lp_data_mixed.py``` to generate graphs for set covering. Here the generation follows that in [Exact Combinatorial Optimization with Graph Convolutional Neural Networks](https://github.com/ds4dm/learn2branch). 
+1. run ```_1_generate_lp_data_mixed.py``` to generate graphs for combinatorial auctions. Here the generation follows that in [Exact Combinatorial Optimization with Graph Convolutional Neural Networks](https://github.com/ds4dm/learn2branch). 
 
 2. run ```_2_infer_scip_primal.py``` to get a set of primal solution/slack to the original problems.
 
